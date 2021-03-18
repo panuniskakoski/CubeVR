@@ -7,6 +7,7 @@ TagManager:
   - cube
   - particles
   - disappears
+  - miscCube
   layers:
   - Default
   - TransparentFX

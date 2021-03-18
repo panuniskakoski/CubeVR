@@ -94,7 +94,7 @@ public class puzzleCube : MonoBehaviour
 
         }
         // If the player places a wrong cube
-        else if (other.tag == "cube" && !(other.name == "6"))
+        else if ((other.tag == "cube" || other.tag == "miscCube") && !(other.name == "6"))
         {
             answerSubmitted = true;
             wrongAnswer = true;
